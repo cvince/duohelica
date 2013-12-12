@@ -1,0 +1,346 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******* 1. GLOBAL *******/
+* {
+	margin:0; 
+	padding:0; 
+}
+
+#wrapper {
+	height: 100%;
+	margin: 0px auto -345px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: -345px; /*footer compensation*/
+	margin-left: auto;
+	min-height: 100%;
+	padding: 0px;
+}
+
+#logo {
+left:0px;
+top: 0px;
+z-index:900;
+float:left;
+}
+
+#header {
+	height:110px;
+	background-color:#FFF;
+}
+
+/*-- #header a.logo {
+position:absolute; 
+width:66px; 
+height:100px; 
+background:url('/images/logo-duohelica.gif'); 
+top:-1px; 
+display:block;
+}--*/
+
+.content {
+	width:925px;
+	margin:0 auto;
+	display:block;
+	padding:0;
+}
+
+#nav {
+	float:right;
+	margin:0px 0 0 0;
+	height:20px;
+	width: 535px;
+	position:relative;
+	margin-top: 85px;
+}
+
+#navitem ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#navitem li {
+	float:right;
+	margin-left:35px;
+}
+
+	/** 1.1 fadehover**/
+div.fadehover {
+	position: relative;
+	}
+ 
+img.a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 10;
+	}
+ 
+img.b {
+	position: absolute;
+	left: 0;
+	top: 0;
+	}
+
+	/** 1.2 footer **/
+
+#footer,#push { clear:both;/* .push must be the same height as .footer */ }
+
+#push {height: 345px;}
+
+#footer {
+	width: 100%;
+}
+
+.footercontent {
+	width:925px;
+	margin:0 auto;
+	display:block;
+	padding-top: 15px;
+	margin-bottom:20px;
+	height: 115px;
+	border-top-color:#999;
+	border-top-style:dotted;
+	border-top-width:1px;
+}
+
+#footercols {
+	width: 150px;
+	float:left;
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
+	font-size:10px;
+	color:#666;
+	list-style:none;
+}
+
+#footercols li a {
+	color:#666;
+	text-decoration:none;
+	list-style-position:outside;
+}
+
+#footercols img {
+	padding-bottom:10px;
+}
+
+#footercols li a:hover {
+	color:#39F;
+	text-decoration:none;
+}
+
+#footer-copyright {
+	width: 150px;
+	float:right;
+}
+
+#footer-copyright a{
+	color:#BBB;
+	text-decoration:none;
+}
+
+#footer-copyright a:hover {
+	color:#39F;
+	text-decoration:none;
+}
+
+h3 {
+	display:block; 
+	font-weight:normal; 
+	font-size: 9px; 
+	padding-left:0px; 
+	line-height:11px; 
+	color:#999; 
+	margin-bottom:0px; 
+	font-family:'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
+}
+
+h3.footer-copyright { background: url('../images/footer/dhlogo.gif') center right no-repeat; }
+
+/******* 2. FRONT PAGE *******/
+
+#banner.frontpage { 
+	background: #FFFFFF;
+	height:386px;
+}
+
+#banner.frontpage .graphics {
+	width:977px;
+	height:376px;
+	background: url('../images/bannerbg.jpg');
+	margin: 0 auto;
+}
+
+	/** 2.1 promo **/
+.promo1 {
+	margin: 40px 0 0 40px;
+	width:auto;
+	height:auto;
+	position:absolute;
+}
+.promo2 {
+	margin-top: 210px;
+	left: 50%;
+	margin-left: -180px;
+	width:400px;
+	height:105px;
+	position:absolute;
+}
+.promo3 {
+	margin-top: 330px;
+	left: 50%;
+	margin-left: -145px;
+	width:260px;
+	height:20px;
+	position:absolute;
+}
+.promo3b {
+	margin-top: 330px;
+	left: 50%;
+	margin-left: 118px;
+	width:66px;
+	height:20px;
+	position:absolute;
+}
+
+	/** 2.2 midbar **/
+
+#midbar.frontpage {
+	background: url('../images/midbar-bg.png');
+	background-repeat: repeat-x;
+	width: 100%;
+	margin: 0 0 0 0;
+	height: 96px;
+}
+
+#col1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:#666;
+	width:755px;
+	float:left;
+	margin-top: 23px;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+#col2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+	color:#666;
+	width:110px;
+	float:right;
+	margin-top: 23px;
+	padding-left: 35px;
+	border-left-width:1px;
+	border-left-style:solid;
+	border-color:#666;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+		/** 2.2.1 Bubble pop **/
+
+#olmid {
+	margin-left: 0px;
+	font-weight: bold;
+	list-style: none;
+}
+
+	/** 2.3 Main Content **/
+
+#maincontent {
+	/*background: url('../images/body-bg.png');
+	background-repeat: repeat-x;*/
+	width: 100%;
+	margin: 0 0 0 0;
+	padding-top: 30px;
+	height: 350px;
+}
+
+ 
+
+#box1{
+	width:650px;
+	height: 300px;
+	float: left;
+}
+
+#box2 {
+	width: 270px;
+	float: right;
+}
+	/** 2.3.1 Feature Content **/
+ul.frontpage-features {
+	list-style:none;
+	height: auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+li.frontpage-features {
+	width:230px;
+	height: auto;
+	color:#666;
+	float:left;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+
+h4 {
+	display:block; 
+	font-weight:normal; 
+	font-size:1.2em; 
+	padding-left:70px; 
+	line-height:39px; 
+	color:#000000; 
+	margin-bottom:6px; 
+	font-family:Arial, Helvetica, sans-serif; 
+}
+h4.title-websites { background: url('../images/icons/monitor.png') center left no-repeat; }
+h4.title-booking { background: url('../images/icons/calendar.png') center left no-repeat;}
+h4.title-patients { background: url('../images/icons/patients.png') center left no-repeat; }
+h4.title-instant { background: url('../images/icons/soup.png') center left no-repeat; }
+
+	/** 2.3.2 Newsletter Signup **/
+
+.newsletterbox
+{
+	width: 269px;
+	background: url('../images/newsletterform.png') no-repeat;
+	float: left;
+	height: 35px;
+	margin-top: 29px;
+}
+
+.textInput
+{
+	width: 200px;
+	height: 22px;
+	background: none;
+	border: none;
+	color:#CCC;
+	font:Helvetica;
+	font-size:1.0em;
+	margin-left: 10px;
+	margin-top: 4px;
+	outline:none;
+	float:left;
+}
+
+.newsletterbutton
+{
+	border:none;
+	margin-top:0px;
+	position: relative;
+	float:right;
+}
+
+	/** 2.3.3 Recent Updates **/
+
+.updatebox
+{
+	width: 269px;
+	height: 100px;
+	float: left;
+	margin-top: 29px;
+}
